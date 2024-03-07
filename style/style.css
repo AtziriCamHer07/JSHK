@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------------------------------ 1er nav ---------- */
+
+.nav-background{
+    width: 100%;
+    height: 665px;
+    background-image: url(../img/wall/index-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.elemento-nav{
+    color: #ffffff;
+    margin: 0 60px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* ------------------------------------------------------------------------------------ 2do nav ---------- */
+
+.nav-snd{
+    width: 100%;
+    height: 65px;
+    background-color: #000;
+}
+
+.nav-snd-container{
+    display: flex;
+    justify-content: center;
+}
+
+.elemento-nav-snd{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 20px  50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* ------------------------------------------------------------------------------------ anime.html ---------- */
+
+.regresar{
+    display: flex;
+    justify-content: right;
+    padding: 20px 50px;
+}
+
+.position-img-anime{
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.anime-background{
+    width: 100%;
+    height: 728px;
+    background-image: url(../img/wall/anime-bg.jpg);
+    background-size: cover;
+}
+
+.anime-div{
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+    padding: 20px 50px;
+    background-color: #ffa794;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px 0px #000000;
+    width: 30%;
+    height: 600px;
+}
+
+.txt-titulo{
+    font-weight: 750;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+
+.txt-titulo-2{
+    color: #000000;
+    position: absolute;
+    bottom: 15px;
+    font-weight: 630;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.anime-snd-background{
+    width: 100%;
+    height: 728px;
+    background-image: url(../img/wall/anime-snd-bg.jpg);
+    background-size: cover;
+}
+
+.anime-snd-div{
+    position: absolute;
+    right: 35px;
+    padding: 20px 50px;
+    background-color: #000000;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px 0px #000000;
+    width: 30%;
+    height: 300px;
+}
+
+.txt-titulo-snd{
+    color: #ffffff;
+    font-weight: 750;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+.txt-titulo-2-snd{
+    color: #ffffff;
+    position: absolute;
+    bottom: 15px;
+    font-weight: 630;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.sep-img-red{
+    height: 340px;
+    background-image: url(../img/sep/red.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sep{
+    background-color: #000000;
+    width: 100%;
+    height: 70px;
+}
+
+/* ------------------------------------------------------------------------------------ manga.html ---------- */
+
+.manga-background{
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/wall/manga-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.manga-div{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px 0px #000000;
+    width: 41%;
+    height: 690px;
+}
+
+.txt-manga{
+    color: #ffb800;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.position-img-manga{
+    position: relative;
+    padding: 20px 0 20px 0;
+    cursor: pointer;
+}
+
+.separacion-entre-mangas{
+    padding: 10px;
+}
