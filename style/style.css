@@ -56,8 +56,9 @@
 /* ------------------------------------------------------------------------------------ anime.html ---------- */
 
 .regresar{
-    display: flex;
-    justify-content: right;
+    position: absolute;
+    right: 40px;
+    top: 15px;
     padding: 20px 50px;
 }
 
@@ -114,6 +115,7 @@
 
 .anime-snd-div{
     position: absolute;
+    top: 110px;
     right: 35px;
     padding: 20px 50px;
     background-color: #000000;
